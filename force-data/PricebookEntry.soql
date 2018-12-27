@@ -1,0 +1,16 @@
+SELECT
+    IsActive,
+    Pricebook2.IsActive,
+    Pricebook2.Name,
+    Pricebook2.Id,
+    Pricebook2Id,
+    Product2.IsActive,
+    Product2.Name,
+    Product2.Id,
+    Product2Id,
+    UnitPrice,
+    Id
+FROM PricebookEntry
+WHERE
+    Product2Id IN (SELECT Id FROM Product2) AND
+    Pricebook2Id IN (SELECT Id FROM Pricebook2)

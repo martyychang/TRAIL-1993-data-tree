@@ -1,3 +1,7 @@
+# For local use only
+.bin/
+tmp/
+
 # Salesforce DX
 .sfdx/
 
