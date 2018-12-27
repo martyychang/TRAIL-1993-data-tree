@@ -77,6 +77,6 @@ products and price books are created.
 
 ## Resources
 
-* "[data Commands]". _Salesforce CLI Command Reference_.
+* "[data Commands][1]". _Salesforce CLI Command Reference_.
 
 [1]: https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference_force_data.htm
