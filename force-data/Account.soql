@@ -1,0 +1,12 @@
+SELECT
+    Name,
+    (
+        SELECT
+            CloseDate,
+            Partner__c,
+            Name,
+            StageName
+        FROM Opportunities
+    ),
+    Id
+FROM Account
