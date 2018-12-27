@@ -1,0 +1,9 @@
+{
+    "orgName": "Salesforce MVP",
+    "edition": "Developer",
+    "settings": {
+        "orgPreferenceSettings": {
+            "chatterEnabled": true
+        }
+    }
+}
