@@ -2,6 +2,9 @@
 .bin/
 tmp/
 
+# Visual Studio Code
+.vscode/
+
 # Salesforce DX
 .sfdx/
 
