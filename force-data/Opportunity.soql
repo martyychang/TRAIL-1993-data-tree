@@ -1,0 +1,7 @@
+SELECT
+    AccountId,
+    CloseDate,
+    Name,
+    StageName,
+    Id
+FROM Opportunity
